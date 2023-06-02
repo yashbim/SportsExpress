@@ -1,0 +1,52 @@
+
+.editor-div{
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+.editor-grp{
+    color: #5a5a5a;
+}
+
+.editor-name{
+    color: white;
+    font-weight: 700;
+}
+
+.editor-div p{
+    font-weight: 500;
+    color: white;
+}
+
+.image-editor{
+    max-width: 400px;
+    position: relative;
+}
+
+/* image */
+
+.image-div{
+    position: relative;
+    margin: 25px 0;
+}
+
+/* pink box */
+
+.image-div::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    background-color: #FF0333;
+    top: 10px;
+    left: 15px;
+    height: 100%;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+/* hover effect */
+
+.image-div:hover::after{
+    top: 0%;
+    left: 0%;
+}

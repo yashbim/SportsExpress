@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#about {
+    background-color: #18171b;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.team {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main-students {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.students {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background-image: url("yasasshreenew.jpg");
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details {
+    width: 90%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    overflow: hidden;
+    text-align: center;   
+    display: none;
+    padding-top: 50%;
+    padding-bottom: 5%;
+    border: 2px solid white;
+}
+
+.students:hover .details {
+    top: 20px;
+    height: 90%;
+    display: block;
+}
+
+.b {
+    background-image: url("sathmika2new.jpg");
+    height: 400px;
+    width: 300px;
+}
+
+.c {
+    background-image: url("sama.jpg");
+}
+
+.d {
+    background-image: url("Isuru2.jpg");
+}

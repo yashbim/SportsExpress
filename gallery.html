@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sports Express | Gallery</title>
+        <link rel="Stylesheet" href="gallery.css">
+        <link rel="stylesheet" href="main-theme.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    </head>
+    <body>
+      <!-- navbar -->
+      <nav>
+        <div class="navabar" id="navbar">
+          <div class="logo">
+            <!-- website logo -->
+            <img src="iit-web-logo-02.png" class="logoimage" alt="" />
+          </div>
+          <!-- navigation links -->
+          <div class="links">
+            <ul>
+              <li class="active"><a href="home.html">Home</a></li>
+              <li><a href="StudentDetails.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="buyproducts.html">Buy Now</a></li>
+              <li><a href="query.html">Query</a></li>
+              <li><a href="Quiz.html">Quiz</a></li>
+              <li><a href="sitemap.html">Site Map</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          
+<!-----------change background color-------------->
+   <div class="backcolor" >
+       <label >Select a Background Colour</label><br>
+          <select name="background" onchange="backgroundchange(this)">
+              <option value="white" >White</option>
+              <option value="black">Black</option>
+              <option value="orange">Orange</option>
+              <option value="green">Green</option>
+              <option value="blue">Blue</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+          </select> 
+  </div>
+<!-----------change font color--------------->
+    <div class="fontcolor" >
+      <label >Select a font Colour</label><br>
+          <select id="font"  onchange="changefont(this)">
+              <option value="white" >White</option>
+              <option value="black">Black</option>
+              <option value="orange">Orange</option>
+              <option value="green">Green</option>
+              <option value="blue">Blue</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+          </select> 
+  </div>
+<!---------------Image Gallery ----------------->
+  <section class="Gallery">
+      <div class="wrapper">
+          <div class="thumbnail">  
+              <div class="image"><span><img src="image1.jpeg" alt=""></span>
+                <div class="image_desc">
+                  <h3 class="image_title">Sri Lanka Cricket Team</h3>
+                  <p class="phragraph">Sri Lanka cricket team is the mots powerfull cricket team in the world.
+                    2014 Sri Lanka won the T20 cricket world cup
+                  </p>
+                  <a href="#image-1" class="button" role="button">View</a>
+                </div>
+              </div>
+              <div class="image"><span><img src="image2.jpeg" alt=""></span>
+                <div class="image_desc">
+                  <h3 class="image_title">Brazil Foot Ball Team</h3>
+                  <p>Brazil is famous th the football. Brazil won the five times fifa world cup. One of the famous player Nemar also in this team</p>
+                  <a href="#image-2" class="button" role="button">View</a>
+                </div>
+              </div>
+              <div class="image"><span><img src="image3.jpeg" alt=""></span>
+                <div class="image_desc">
+                  <h3 class="image_title">New Zeland Rugby Team</h3>
+                  <p>Rugby is tne National sport of New Zeland.All the people are calling ALL BLACKS.Many New Zealanders associate it with their national identity.</p>
+                  <a href="#image-3" class="button" role="button">View</a>
+                </div>
+              </div>
+              <div class="image"><span><img src="image4.jpeg" alt=""></span>
+                <div class="image_desc">
+                  <h3 class="image_title">Usain Bolt</h3>
+                  <p>Usain Bolt born on 21st August 1986 in Jamaica.
+                    He is the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay.
+                  </p>
+                  <a href="#image-4" class="button" role="button">View</a>
+                </div>
+              </div>   
+              <div class="image"><span><img src="image5.jpeg" alt=""></span>
+                <div class="image_desc">
+                  <h3 class="image_title">Michlle Phelps</h3>
+                  <p>Michlle Phelps born on June 30, 1995.
+                    He is the most successful and most decorated Olympian of all time with a total of 28 medals.
+                  </p><br>
+                  <a href="#image-5" class="button" role="button">View</a>
+                </div>
+              </div>
+              <div class="image"><span><img src="image6.jpeg" alt=""></span>
+                <div class="image_desc">
+                  <h3 class="image_title">Lional Messi</h3>
+                  <p>Lional Messi born on 24 June 1987.
+                    He is a professional football player.Messi has won a record seven Ballon d'Or awards,a record six European Golden Shoes
+                  </p>
+                  <a href="#image-6" class="button" role="button">View</a>
+                </div>
+              </div>  
+          </div>
+        </div>
+
+        <div class="preview-box" id="image-1">
+          <div class="content">
+          <a href="#portfolio" class="close"></a>
+          <img class="preview-image" src="image1.jpeg" alt="">
+          </div>
+        </div>
+        
+        <div class="preview-box" id="image-2">
+          <div class="content">
+          <a href="#portfolio" class="close"></a>
+          <img class="preview-image" src="image2.jpeg" alt="">
+          </div>
+        </div>
+
+        <div class="preview-box" id="image-3">
+          <div class="content">
+          <a href="#portfolio" class="close"></a>
+          <img class="preview-image" src="image3.jpeg" alt="">
+          </div>
+        </div>
+
+        <div class="preview-box" id="image-4">
+          <div class="content">
+          <a href="#portfolio" class="close"></a>
+          <img class="preview-image" src="image4.jpeg" alt="">
+          </div>
+        </div>
+
+        <div class="preview-box" id="image-5">
+          <div class="content">
+          <a href="#portfolio" class="close"></a>
+          <img class="preview-image" src="image5.jpeg" alt="">
+          </div>
+        </div>
+
+        <div class="preview-box" id="image-6">
+          <div class="content">
+          <a href="#portfolio" class="close"></a>
+          <img class="preview-image" src="image6.jpeg" alt="">
+          </div>
+        </div>
+  </section>
+
+  <!-- --------editor ------------------->
+  <div class="editor">
+    <a href="Isuru.html" class="editor-link">Developed by: Isuru Udara</a>
+  </div>
+  
+  <!-- ---------------------footer------------ -->
+  <footer>
+    <div class="main footer">
+    <div class="footer-div"> <div class="foot">
+    <h2>SportsExpress</h2> <p>
+    It’s never too late to stay in shape! Start your new year off with a healthy, manageable routine. Shop our newest arrivals and get up to 50% off athletic gear. All the sportsman essentials are waiting for you at sports express, be it something simple or something special. Today’s the day to make that first step.
+    </p>
+    </div>
+    <div class="footer-links">
+    <h3>Links</h3>
+      <a href="home.html">Home</a>
+      <a href="StudentDetails.html">About us</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="buyproducts.html">Buy Now</a>
+      <a href="query.html">Query</a>
+      <a href="Quiz.html">Quiz</a>
+      <a href="sitemap.html">Site Map</a>
+      <a href="blog.html">Blog</a>
+    </div>
+    <div class="footer-links">
+    <h3>Services</h3>
+    <a href="#">Free shipping</a>
+    <a href="#">Quick delivery</a>
+    <a href="#">100% customer satisfaction</a> <a href="#">Money back guranteed</a>
+    </div>
+    <div class="footer-links">
+    <h3>Products</h3>
+    <a href="#">Cricket</a>
+    <a href="#">Tennis</a>
+    <a href="#">Gym</a>
+    <a href="#">Badminton</a> <a href="#">Other</a>
+    </div> </div>
+    <div class="hr"></div>
+     
+    <div class="copyright-div"> <div>
+    <p class="copyright">
+    copyright &copy; 2022 All rights Reserved by sports express
+    </p>
+    </div>
+    <div class="copyright">
+    <i class="fa fa-facebook-official" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    </div> </div>
+    </div> </footer>
+
+    <!-- back to top button --> 
+    <div class="back-to-top">
+        <a href="#navbar">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>
+    </div>
+  <script src="gallery.js"></script>
+  </body>
+</html>

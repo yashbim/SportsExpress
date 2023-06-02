@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Quiz</title>
+
+    <link rel="stylesheet" type="text/css" href="Quiz.css" />
+    <link rel="stylesheet" href="main-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="backgroundimage">
+      <!-- navbar -->
+      <nav>
+        <div class="navabar" id="navbar">
+          <div class="logo">
+            <!-- website logo -->
+            <img src="iit-web-logo-02.png" class="logoimage" alt="" />
+          </div>
+          <!-- navigation links -->
+          <div class="links">
+            <ul>
+              <li class="active"><a href="home.html">Home</a></li>
+              <li><a href="StudentDetails.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="buyproducts.html">Buy Now</a></li>
+              <li><a href="query.html">Query</a></li>
+              <li><a href="Quiz.html">Quiz</a></li>
+              <li><a href="sitemap.html">Site Map</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end of the nav bar -->
+
+      <!-- back to top button -->
+      <div class="back-to-top">
+        <a href="#navbar">
+          <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="instruction">
+        <h1>QUIZ</h1>
+        <br />
+        <h2>Instructions</h2>
+        <br />
+        <p><b>Number of questions : 10</b></p>
+        <br />
+        <p><b>Time : 1 Minute</b></p>
+        <br />
+        <input
+          type="button"
+          value="Start Quiz"
+          id="btn"
+          onclick="window.location.href='#marksColor';start(); timeDiv(); timer(); timeOut();"
+        />
+      </div>
+      <div id="marksColor">
+        <form name="quiz" id="quizForm">
+          <p>1. What is the most popular sport in the world?</p>
+          <br />
+          <label for="q1ans1">1. Cricket </label
+          ><input type="radio" name="q1" id="q1ans1" value="1" /><br />
+          <label for="q1ans2">2. Football </label
+          ><input type="radio" name="q1" id="q1ans2" value="2" /><br />
+          <label for="q1ans3">3. Tennis </label
+          ><input type="radio" name="q1" id="q1ans3" value="3" /><br />
+          <label for="q1ans4">4. Basketball </label
+          ><input type="radio" name="q1" id="q1ans4" value="4" /><br />
+          <br />
+
+          <p>2. How many players are there in a Cricket team?</p>
+          <br />
+          <label for="q2ans1">1. 6 players </label
+          ><input type="radio" name="q2" id="q2ans1" value="1" /><br />
+          <label for="q2ans2">2. 8 players </label
+          ><input type="radio" name="q2" id="q2ans2" value="2" /><br />
+          <label for="q2ans3">3. 11 players </label
+          ><input type="radio" name="q2" id="q2ans3" value="3" /><br />
+          <label for="q2ans4">4. 15 players </label
+          ><input type="radio" name="q2" id="q2ans4" value="4" /><br />
+          <br />
+
+          <p>3. Which country won the first ever rugby world cup?</p>
+          <br />
+          <label for="q3ans1">1. New Zealand </label
+          ><input type="radio" name="q3" id="q3ans1" value="1" /><br />
+          <label for="q3ans2">2. Argentina </label
+          ><input type="radio" name="q3" id="q3ans2" value="2" /><br />
+          <label for="q3ans3">3. England </label
+          ><input type="radio" name="q3" id="q3ans3" value="3" /><br />
+          <label for="q3ans4">4. Ireland </label
+          ><input type="radio" name="q3" id="q3ans4" value="4" /><br />
+          <br />
+
+          <p>4. What is the national sport of Sri Lanka?</p>
+          <br />
+          <label for="q4ans1">1. Cricket </label
+          ><input type="radio" name="q4" id="q4ans1" value="1" /><br />
+          <label for="q4ans2">2. Rugby </label
+          ><input type="radio" name="q4" id="q4ans2" value="2" /><br />
+          <label for="q4ans3">3. Volleyball </label
+          ><input type="radio" name="q4" id="q4ans3" value="3" /><br />
+          <label for="q4ans4">4. Badminton </label
+          ><input type="radio" name="q4" id="q4ans4" value="4" /><br />
+          <br />
+
+          <p>5. What team owns the longest winning streak in NBA history?</p>
+          <br />
+          <label for="q5ans1">1. Chicago Bulls </label
+          ><input type="radio" name="q5" id="q5ans1" value="1" /><br />
+          <label for="q5ans2">2. New York Knicks </label
+          ><input type="radio" name="q5" id="q5ans2" value="2" /><br />
+          <label for="q5ans3">3. Golden State Warriors </label
+          ><input type="radio" name="q5" id="q5ans3" value="3" /><br />
+          <label for="q5ans4">4. Los Angeles Lakers </label
+          ><input type="radio" name="q5" id="q5ans4" value="4" /><br />
+          <br />
+
+          <p>6. How many rings are there on the Olympic flag?</p>
+          <br />
+          <label for="q6ans1">1. 4 </label
+          ><input type="radio" name="q6" id="q6ans1" value="1" /><br />
+          <label for="q6ans2">2. 5 </label
+          ><input type="radio" name="q6" id="q6ans2" value="2" /><br />
+          <label for="q6ans3">3. 6 </label
+          ><input type="radio" name="q6" id="q6ans3" value="3" /><br />
+          <label for="q6ans4">4. 7 </label
+          ><input type="radio" name="q6" id="q6ans4" value="4" /><br />
+          <br />
+
+          <p>7. When was the first FIFA world cup held?</p>
+          <br />
+          <label for="q7ans1">1. 1930 </label
+          ><input type="radio" name="q7" id="q7ans1" value="1" /><br />
+          <label for="q7ans2">2. 1934 </label
+          ><input type="radio" name="q7" id="q7ans2" value="2" /><br />
+          <label for="q7ans3">3. 1924 </label
+          ><input type="radio" name="q7" id="q7ans3" value="3" /><br />
+          <label for="q7ans4">4. 1920 </label
+          ><input type="radio" name="q7" id="q7ans4" value="4" /><br />
+          <br />
+
+          <p>
+            8. Who has the highest number of gold medals in Olympic history?
+          </p>
+          <br />
+          <label for="q8ans1">1. Usain Bolt </label
+          ><input type="radio" name="q8" id="q8ans1" value="1" /><br />
+          <label for="q8ans2">2. Larisa Latynina </label
+          ><input type="radio" name="q8" id="q8ans2" value="2" /><br />
+          <label for="q8ans3">3. Michael Phelps </label
+          ><input type="radio" name="q8" id="q8ans3" value="3" /><br />
+          <label for="q8ans4">4. Carl Lewis </label
+          ><input type="radio" name="q8" id="q8ans4" value="4" /><br />
+          <br />
+
+          <p>9. Who won the most Ballon d'Or award?</p>
+          <br />
+          <label for="q9ans1">1. Cristiano Ronaldo </label
+          ><input type="radio" name="q9" id="q9ans1" value="1" /><br />
+          <label for="q9ans2">2. Lionel Messi </label
+          ><input type="radio" name="q9" id="q9ans2" value="2" /><br />
+          <label for="q9ans3">3. Luka Modric </label
+          ><input type="radio" name="q9" id="q9ans3" value="3" /><br />
+          <label for="q9ans4">4. Ronaldinho </label
+          ><input type="radio" name="q9" id="q9ans4" value="4" /><br />
+          <br />
+
+          <p>10. Who won the first ICC World Cup?</p>
+          <br />
+          <label for="q10ans1">1. India </label
+          ><input type="radio" name="q10" id="q10ans1" value="1" /><br />
+          <label for="q10ans2">2. West Indies </label
+          ><input type="radio" name="q10" id="q10ans2" value="2" /><br />
+          <label for="q10ans3">3. Sri Lanka </label
+          ><input type="radio" name="q10" id="q10ans3" value="3" /><br />
+          <label for="q10ans4">4. England </label
+          ><input type="radio" name="q10" id="q10ans4" value="4" /><br />
+          <br /><br />
+
+          <input
+            type="button"
+            value="End Quiz"
+            id="btn2"
+            onclick="results(); stopTimer();"
+          />
+        </form>
+      </div>
+
+      <div id="myDiv">
+        <div>Remaining Seconds:</div>
+        <br />
+        <div id="time"></div>
+      </div>
+
+      <div id="final">
+        <br />
+        <div id="finalResult"></div>
+        <br />
+      </div>
+
+      <div class="editor">
+        <a href="Chamod.html" class="editor-link quiz-editor"
+          >Developed by: Chamod Samaranayake</a
+        >
+      </div>
+
+      <!-- footer -->
+
+      <footer>
+        <div class="main footer">
+          <div class="footer-div">
+            <div class="foot">
+              <h2>SportsExpress</h2>
+              <p>
+                It’s never too late to stay in shape! Start your new year off
+                with a healthy, manageable routine. Shop our newest arrivals and
+                get up to 50% off athletic gear. All the sportsman essentials
+                are waiting for you at sports express, be it something simple or
+                something special. Today’s the day to make that first step.
+              </p>
+            </div>
+            <div class="footer-links">
+              <h3>Links</h3>
+              <a href="home.html">Home</a>
+              <a href="StudentDetails.html">About us</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="buyproducts.html">Buy Now</a>
+              <a href="query.html">Query</a>
+              <a href="Quiz.html">Quiz</a>
+              <a href="sitemap.html">Site Map</a>
+              <a href="blog.html">Blog</a>
+            </div>
+            <div class="footer-links">
+              <h3>Services</h3>
+              <a href="#">Free shipping</a>
+              <a href="#">Quick delivery</a>
+              <a href="#">100% customer satisfaction</a>
+              <a href="#">Money back guranteed</a>
+            </div>
+            <div class="footer-links">
+              <h3>Products</h3>
+              <a href="#">Cricket</a>
+              <a href="#">Tennis</a>
+              <a href="#">Gym</a>
+              <a href="#">Badminton</a>
+              <a href="#">Other</a>
+            </div>
+          </div>
+          <div class="hr"></div>
+          <div class="copyright-div">
+            <div>
+              <p class="copyright">
+                copyright &copy; 2022 All rights Reserved by sports express
+              </p>
+            </div>
+            <div class="copyright">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of the footer -->
+    </div>
+
+    <script src="Quiz.js"></script>
+  </body>
+</html>

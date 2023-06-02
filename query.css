@@ -1,0 +1,132 @@
+
+.contact-a{
+    color: #18171b;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link-contact{
+    margin: 5px 0;
+    color: #18171b;
+}
+
+/* main div */
+
+.wrapper{
+    color: #18171b;
+}
+
+.query{
+    padding: 45px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #18171b;
+    height: 100%;
+    width: 100%;
+}
+
+
+.text-side h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.text-side p{
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 25px;
+}
+
+.text-side{
+    padding: 35px;
+}
+
+.query-div{
+    flex-basis: 50%;
+}
+
+/* right div*/
+
+.form-row{
+    margin: 20px 0;
+}
+
+.enter-details{
+    display: block;
+}
+
+input, textarea, select{
+    border: 1px solid #18171b;
+    font-weight: 400;
+    color: #18171b;
+    border-radius: 0;
+    padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+input, select{
+    height: 50px;
+    outline: none;
+    width: 49%;
+}
+
+.left{
+    margin: 0 20px 0 0;
+}
+
+textarea{
+    resize: none;
+    outline: none;
+    width: 100%;
+}
+
+.right{
+    float: right;
+}
+.link-contact i{
+    width: 30px;
+    height: 30px;
+}
+
+.form-btn{
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+/* summary box */
+
+.summary-div{
+    display: none;
+}
+
+.summary-div-show{
+    display: block;
+}
+
+.summary-heading h1{
+    font-weight: 800;
+    color: #18171b;
+}
+
+.summary-div span{
+    font-weight: 600;
+    color: #18171b;
+    font-size: 18px;
+    margin: 5px 8px 5px 0;
+}
+
+.summary-heading{
+    margin: 35px 0;
+}
+
+.details-div{
+    margin: 15px 0;
+}
+
+.details-div p{
+    display: inline-block;
+}

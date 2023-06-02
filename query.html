@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportsExpress | Query</title>
+    <!-- link external css files -->
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="query.css" />
+    <link rel="stylesheet" href="main-theme.css" />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="navabar" id="navbar">
+        <div class="logo">
+          <!-- website logo -->
+          <img src="iit-web-logo-02.png" class="logoimage" alt="" />
+        </div>
+        <!-- navigation links -->
+        <div class="links">
+          <ul>
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="StudentDetails.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="buyproducts.html">Buy Now</a></li>
+            <li><a href="query.html">Query</a></li>
+            <li><a href="Quiz.html">Quiz</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- back to top button -->
+    <div class="back-to-top">
+      <a href="#navbar">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+      </a>
+    </div>
+
+    <!-- contact form -->
+
+    <!-- back to top button -->
+    <div class="back-to-top">
+      <a href="#navbar">
+        <i class="fa fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <div class="query">
+      <div class="text-side query-div">
+        <h1>Query Form</h1>
+        <p>
+          Had a question about Sports Express? Wait no more! Our team is here
+          for you 24/7. Ask us anything about our products or services with help
+          from Sports Express.
+        </p>
+        <div class="link-contact">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <a href="" class="contact-a">contact@sportsexpress.com</a><br />
+        </div>
+        <div class="link-contact">
+          <i class="fa fa-phone-square" aria-hidden="true"></i>
+          <a href="" class="contact-a">+94 70 216 8965 / +94 72 569 8956</a
+          ><br />
+        </div>
+        <div class="link-contact">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <a href="" class="contact-a">407/6/8 Nugegoda, Sri Lanka</a><br />
+        </div>
+      </div>
+
+      <!-- query form -->
+
+      <div class="form-side query-div enter-details" id="enter-details">
+          <div class="form-row">
+            <input type="text" id="name" placeholder="Your Name" />
+            <input type="email" id="email" class="right" placeholder="Your Email"/>
+          </div>
+
+          <div class="form-row">
+            <input type="text" id="phoneNumber" placeholder="Your Phone"/>
+            <select id="subject" class="right">
+              <option value="Subject">Subject</option>
+              <option value="Delivery">Delivery</option>
+              <option value="Cricket Accessories">Cricket Accessories</option>
+              <option value="Gym Accessories">Gym Accessories</option>
+              <option value="Finance">Finance</option>
+              <option value="Pre Order">Pre Order</option>
+              <option value="Refund">Refund</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <textarea id="textArea" cols="30" rows="10" placeholder="Enter your Query"></textarea>
+          </div>
+
+          <button class="secondary form-btn" onclick="buttonClick()">
+            View Query
+          </button>
+      </div>
+
+      <!-- summary -->
+
+      <div class="query-div summary-div" id="summary-div">
+        <div class="summary-heading">
+          <h1>QUERY SUMMARY</h1>
+        </div>
+
+        <div class="details-div">
+          <span>Name: </span>
+          <p id="summary-name"></p>
+        </div>
+
+        <div class="details-div">
+          <span>Email: </span>
+          <p id="summary-email"></p>
+        </div>
+
+        <div class="details-div">
+          <span>Phone: </span>
+          <p id="summary-phone"></p>
+        </div>
+
+        <div class="details-div">
+          <span>Subject: </span>
+          <p id="summary-subject"></p>
+        </div>
+
+        <div class="details-div">
+          <span>Summary: </span>
+          <p id="summary-query"></p>
+        </div>
+
+        <button class="secondary form-btn" onclick="submit()">SUBMIT</button>
+        <button class="secondary outline form-btn" onclick="editDetails()">
+          EDIT
+        </button>
+      </div>
+    </div>
+
+    <div class="editor">
+      <a href="editor-sathmika.html" class="editor-link"
+        >Developed by: Kulunu Sathmika</a
+      >
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="main footer">
+        <div class="footer-div">
+          <div class="foot">
+            <h2>SportsExpress</h2>
+            <p>
+              It’s never too late to stay in shape! Start your new year off with
+              a healthy, manageable routine. Shop our newest arrivals and get up
+              to 50% off athletic gear. All the sportsman essentials are waiting
+              for you at sports express, be it something simple or something
+              special. Today’s the day to make that first step.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h3>Links</h3>
+            <a href="home.html">Home</a>
+              <a href="StudentDetails.html">About us</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="buyproducts.html">Buy Now</a>
+              <a href="query.html">Query</a>
+              <a href="Quiz.html">Quiz</a>
+              <a href="sitemap.html">Site Map</a>
+              <a href="blog.html">Blog</a>
+          </div>
+          <div class="footer-links">
+            <h3>Services</h3>
+            <a href="#">Free shipping</a>
+            <a href="#">Quick delivery</a>
+            <a href="#">100% customer satisfaction</a>
+            <a href="#">Money back guranteed</a>
+          </div>
+          <div class="footer-links">
+            <h3>Products</h3>
+            <a href="#">Cricket</a>
+            <a href="#">Tennis</a>
+            <a href="#">Gym</a>
+            <a href="#">Badminton</a>
+            <a href="#">Other</a>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+        <div class="copyright-div">
+          <div>
+            <p class="copyright">
+              copyright &copy; 2022 All rights Reserved by sports express
+            </p>
+          </div>
+          <div class="copyright">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="query.js"></script>
+  </body>
+</html>

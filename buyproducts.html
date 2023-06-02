@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Products</title>
+    <link rel="stylesheet" href="buyproducts.css">
+    <link rel="stylesheet" href="main-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!--taskbar here-->
+    <!-- navbar -->
+    <nav>
+        <div class="navabar" id="navbar">
+          <div class="logo">
+            <!-- website logo -->
+            <img src="iit-web-logo-02.png" class="logoimage" alt="" />
+          </div>
+          <!-- navigation links -->
+          <div class="links">
+            <ul>
+              <li class="active"><a href="home.html">Home</a></li>
+              <li><a href="StudentDetails.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="buyproducts.html">Buy Now</a></li>
+              <li><a href="query.html">Query</a></li>
+              <li><a href="Quiz.html">Quiz</a></li>
+              <li><a href="sitemap.html">Site Map</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- back to top button -->
+    <div class="back-to-top">
+        <a href="#navbar">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>
+    </div>
+   
+
+
+        <br>
+        <h1 class="buyproducts">Buy Products Here</h1>
+        <br>
+
+        <p>To buy products, select a quantity and add to invoice.</p>
+        <p>You will get your invoice once you have submitted your personal information at the bottom of the page.</p>
+        <br>
+
+        <form action="mailto:yashasshree.20210695@iit.ac.lk" method="post" enctype="text/plain">
+
+            <!--Selection starts here-->
+            <div id="product">
+            <fieldset id="f1">
+            <div class="product1div" >
+                <img src="cricketbat.png" alt="Green Cricket Bat" id="productimagebat">
+                <p class="productname"><b>Cricket Bat (Green)</b></p>
+                <p>Price → LKR 8000.00</p>
+                <br>
+                
+                    <label for="quantity1">Select Quantity → </label>
+                    <input id="quantity1" type='text' name='1quantity' value="1" placeholder='Maximum quantity is 9'
+                        maxlength='1'>
+
+                    <p>Confirm Order →
+
+                        <button type="button" onclick="select1() " id="invoiceadd1">Add to Invoice</button>
+                    </p>
+                    <br>
+                    <hr>
+
+                
+            </div>
+            <br>
+
+            <div class="product2div" >
+                <img src="ball.png" alt="Cricket Ball" id="productimageball">
+                <p class="productname"><b>Cricket Ball (Leather)</b></p>
+                <p>Price → LKR 500.00</p>
+                <br>
+                
+                    <label for="quantity2">Select Quantity → </label>
+                    <input id="quantity2" type='text' name='2quantity' value="1" placeholder='Maximum quantity is 9'
+                        maxlength='1'>
+
+                    <p>Confirm Order →
+
+                        <button type="button" onclick="select2()" id="invoiceadd2">Add to Invoice</button>
+                    </p>
+                    <br>
+                    <hr>
+
+                
+            </div>
+            <br>
+
+
+            <div class="product3div" >
+                <img src="football.png" alt="Football" id="productimagefootball">
+                <p class="productname"><b>Football (Soccer)</b></p>
+                <p>Price → LKR 6000.00</p>
+                <br>
+                
+                    <label for="quantity3">Select Quantity → </label>
+                    <input id="quantity3" type='text' name='3quantity' value="1" placeholder='Maximum quantity is 9'
+                        maxlength='1'>
+
+                    <p>Confirm Order →
+
+                        <button type="button" onclick="select3()" id="invoiceadd3">Add to Invoice</button>
+                    </p>
+                    <br>
+                    <hr>
+                
+            </div>
+            <br>
+
+
+            <div class="product4div" >
+                <img src="footballboots.png" alt="Football Boots" id="productimageboots">
+                <p class="productname"><b>Football Boots</b></p>
+                <p>Price → LKR 4500.00</p>
+                <br>
+                
+                    <label for="quantity4">Select Quantity → </label>
+                    <input id="quantity4" type='text' name='4quantity' value="1" placeholder='Maximum quantity is 9'
+                        maxlength='1'>
+
+                    <p>Confirm Order →
+
+                        <button type="button" onclick="select4()" id="invoiceadd4">Add to Invoice</button>
+                    </p>
+                    <br>
+                    <hr>
+                
+            </div>
+            <br>
+
+
+            <div class="product5div">
+                <img src="badminton.png" alt="Badminton Racket" id="productimageracquet">
+                <p class="productname"><b>Badminton Racket</b></p>
+                <p>Price → LKR 7000.00</p>
+                <br>
+                
+                    <label for="quantity5">Select Quantity → </label>
+                    <input id="quantity5" type='text' name='5quantity' value="1" placeholder='Maximum quantity is 9'
+                        maxlength='1'>
+
+                    <p>Confirm Order →
+
+                        <button type="button" onclick="select5()" id="invoiceadd5">Add to Invoice</button>
+                    </p>
+                    <br>
+                    <hr>
+                
+            </div>
+            <br>
+
+
+            <div class="product6div" >
+                <img src="shuttle.png" alt="Badminton Shuttle Cock" id="productimageshuttle">
+                <p class="productname"><b>Badminton Shuttle Cock</b></p>
+                <p>Price → LKR 400.00</p>
+                <br>
+                
+                    <label for="quantity6">Select Quantity → </label>
+                    <input id="quantity6" type='text' name='6quantity' value="1" placeholder='Maximum quantity is 9'
+                        maxlength='1'>
+
+                    <p>Confirm Order →
+
+                        <button type="button" onclick="select6()" id="invoiceadd6">Add to Invoice</button>
+                    </p>
+                    <br>
+                    <hr>
+            
+            </div>
+            </fieldset>
+            </div>
+            <br>
+
+        </form>
+
+        <form name="validateform">
+            <p class="pd"><b>Personal Details</b></p>
+
+            <div class="personaldetails">
+                
+                <p>Please enter your name and email adress here and press submit to recieve your invoice.</p>
+                <br>
+                <fieldset id="onename">
+                    <label for="firstname"> First Name : </label>
+                    <input id="firstname" type='text' name='customerfirstname' placeholder='Enter first name '>
+                </fieldset>
+                <br>
+
+                <fieldset id="twoname">
+                    <label for="secondname"> Second Name : </label>
+                    <input id="secondname" type='text' name='customersecondname' placeholder='Enter second name '>
+                </fieldset>
+                <br>
+
+                <fieldset id="customeremailaddress">
+                    <label for="email">Email Address : </label>
+                    <input id="email" type='email' name='customeremail'>
+                </fieldset>
+                <br>
+            </div>
+            <p>Click below when done:</p>
+
+            <div>
+                <fieldset id='submit'>
+                    <input type='submit' name='submit' value='submit' onclick="validate(); return false;">
+                </fieldset>
+                <br>
+            </div>
+
+            
+
+    
+    </form>
+    <br>
+
+    <div class="editor">
+        <a href="editor-yasashree.html" class="editor-link">Developed by : Yashasshree Madurapperuma</a>
+    </div>
+
+    <footer>
+        <div class="main footer">
+            <div class="footer-div">
+                <div class="foot">
+                    <h2>SportsExpress</h2>
+                        <p>
+                        It’s never too late to stay in shape! Start your new year off with a
+                        healthy, manageable routine. Shop our newest arrivals and get up to
+                        50% off athletic gear. All the sportsman essentials are waiting for
+                        you at sports express, be it something simple or something special.
+                        Today’s the day to make that first step.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Links</h3>
+                        <a href="home.html">Home</a>
+                        <a href="#">About us</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Buy Now</a>
+                        <a href="query.html">Query</a>
+                        <a href="#">Quiz</a>
+                        <a href="#">Site Map</a>
+                        <a href="blog.html">Blog</a>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Services</h3>
+                        <a href="#">Free shipping</a>
+                        <a href="#">Quick delivery</a>
+                        <a href="#">100% customer satisfaction</a>
+                        <a href="#">Money back guranteed</a>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Products</h3>
+                        <a href="#">Cricket</a>
+                        <a href="#">Tennis</a>
+                        <a href="#">Gym</a>
+                        <a href="#">Badminton</a>
+                        <a href="#">Other</a>
+                    </div>
+                </div>
+            <div class="hr"></div>
+        <div class="copyright-div">
+        <div>
+        <p class="copyright">
+        copyright &copy; 2022 All rights Reserved by sports express
+        </p>
+        </div>
+        <div class="copyright">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+        </div>
+        </div>
+        </footer>
+       
+
+    <script src="buyproducts.js"></script>
+    
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+#product{
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    padding: 1%;
+}
+
+#productimagebat{
+    width:618px;
+    height:410px;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10%;
+    border-style: ridge;
+    background-color: #8c8c8c		;
+}
+
+#productimageboots{
+    width:618px;
+    height:410px;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10%;
+    border-style: ridge;
+    background-color: #8c8c8c		;
+}
+#productimageracquet{
+    width:618px;
+    height:410px;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10%;
+    border-style: ridge;
+    background-color: #8c8c8c		;
+}
+
+#productimageshuttle{
+    width:618px;
+    height:410px;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10%;
+    border-style: ridge;
+    background-color: #8c8c8c		;
+}
+
+#productimageball{
+    width:410px;
+    height:410px;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    padding: 1%;
+    border-radius: 10%;
+    border-style: ridge ;
+    background-color: #8c8c8c		;
+}
+
+#productimagefootball{
+    width:410px;
+    height:410px;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    padding: 1%;
+    border-radius: 10%;
+    border-style: ridge ;
+    background-color: #8c8c8c		;
+}
+
+.buyproducts{
+    text-align: center;
+    font-size:  80px;;
+}
+
+.product1div{
+    text-align: center;
+}
+
+.product2div{
+    text-align: center;
+}
+
+.product3div{
+    text-align: center;
+}
+
+.product4div{
+    text-align: center;
+}
+
+.product5div{
+    text-align: center;
+}
+
+.product6div{
+    text-align: center;
+}
+
+#f1{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#product{
+    text-align: center;
+
+}
+
+#onename{
+    width: 30%;
+}
+
+#twoname{
+    width: 30%;
+}
+
+#customeremailaddress{
+    width: 30%;
+}
+
+#submit{
+    width: 0%;
+}
+
+.personaldetails{
+    text-align: center;
+}
+
+.pd{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.productname{
+    font-size: x-large;
+}

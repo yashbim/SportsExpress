@@ -1,0 +1,364 @@
+/* background image */
+
+.container{
+    background-image: url("Webui-iit-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    /* padding-top: 150px; */
+}
+.header-p{
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-p2{
+    color: #bebebe;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.header-h{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* primary button */
+.primary-button{
+    margin-top: 25px;
+    background-color: #ffff;
+    color: #18171b;
+    height: 60px;
+    width: 250px;
+    padding: 2px 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+}
+.primary-button:hover{
+    background-color: #FF0333;
+    color: white;
+    transform: scale(1.09);
+}
+
+/* icon stylings */
+.icon{
+    height: 15px;
+    width: 15px;
+    color: rgb(255, 153, 0);
+    display: inline-block;
+}
+.menu{
+    display: none;
+    height: 30px;
+    width: 30px;
+    color: #DBDFFD;
+}
+
+.main{
+    padding: 35px 100px; 
+}
+
+.heading h1{
+    color: #18171b;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* text section stylings */
+
+.text-column{
+    font-size: 25px;
+    color: #18171b;
+    margin-top: 45px;
+}
+
+.text-column h1{
+    font-weight: 800;
+}
+.text-column p{
+    font-size: 18px;
+    color: #a5a5a5;
+    font-weight: 400;
+}
+.para-text{
+    padding: 25px 200px;
+}
+.button-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* secondary button */
+.secondary{
+    margin: 25px 0;
+    background-color: #18171b;
+    color: #ffffff;
+    height: 60px;
+    width: 250px;
+    padding: 0px 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.secondary:hover{
+    background-color: #FF0333;
+}
+
+.outline:hover{
+    background-color: #18171b;
+    color: white;
+}
+
+/* outlined button */
+
+.outline{
+    background-color: transparent;
+    border: 1px solid #18171b;
+    color: #18171b;
+}
+
+/* product cards */
+
+.product-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.products{
+    flex-basis: 20%;
+    margin: 15px 15px;
+    background-color: #f4f4f4;
+    color: #18171b;
+    text-align: center;
+    padding: 20px 15px;
+    min-width: 250px;
+    
+}
+
+.products p{
+    font-size: 12px;
+    margin: 0 0 15px 0;
+}
+
+.image{
+    width: 100%;
+}
+
+/* small button */
+
+.small-btn{
+    height: 40px;
+    background-color: #FF0333;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    width: 150px;
+    transition: 0.5s;
+}
+
+.small-btn:hover{
+    background-color: #d40027;
+    transform: scale(1.09);
+}
+
+.small-btn-product{
+    width: 55%;
+}
+.main-small-btn{
+    text-align: center;
+    margin: 35px 0 0;
+}
+
+/* row div */
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.specs{
+    background-color: #f4f4f4;
+    color: #18171b;
+    padding: 35px 0;   
+}
+
+.specs p{
+    color: #4e4e4e;
+}
+
+
+.textbox{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* input field */
+
+.textbox input{
+    height: 60px;
+    width: 350px;
+    border: 1px solid #18171b;
+    background-color: transparent;
+    padding-left:10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    margin: 0 15px;
+}
+
+/* button */
+
+.button{
+    text-align: center;
+    margin-top: 45px;
+}
+
+/* gallery */
+
+.image-gallery{
+    flex-basis: 30%;
+}
+
+.gallery{
+    margin: 25px 0 25px 0;
+}
+
+.image-gallery h2{
+    font-size: 35px;
+    color: white;
+    text-align: start;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.image-gallery p{
+    font-size: 18px;
+    color: #a5a5a5;
+    text-align: start;
+}
+
+.img-gallery{
+    background-color: #18171b;
+}
+
+.img-gallery-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gallery-small-btn{
+    margin: 35px 0;
+}
+
+/* testimonials */
+
+.testimoniols{
+    color: #18171b;
+    background-color: #f4f4f4;
+    padding: 35px 35px;
+    margin: 0 15px;
+}
+
+.testimoniols p{
+    margin-top: 5px;
+    color: #727272;
+    font-size: 14px;
+}
+.testimonials-heading{
+    text-align: center;
+    color: #18171b;
+    margin-bottom: 35px;
+}
+
+.testimonials-heading h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.star i{
+    margin: 0 3px;
+}
+
+/* specs */
+
+.col-3{
+    flex-basis: 33.3%;
+}
+
+.col-3 h2{
+    text-transform: uppercase;
+    margin: 8px 0;
+}
+
+/* email */
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #18171b;
+    padding: 35px 0;
+    margin: 35px 0 0;
+}
+
+.email h2{
+    font-size: 40px;
+    color: #18171b;
+    font-weight: 800;
+}
+
+.email p{
+    color: #a5a5a5;
+    font-weight: 400;
+}
+
+
+
